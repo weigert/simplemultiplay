@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roguelike</title>
+	<link rel="stylesheet" href="homestyle.css">
+</head>
+
+<div id="title">
+	Roguelike
+</div>
+
+<div id="desc">
+	A browser-based multiplayer game.<br>
+	<a href="./play.html">Play</a>
+</div>
+
+<div id="logon">
+  	Name: <input id="name"><br>
+  	<button type="button" onclick="myFunction()">Submit</button>
+</form>
+</div>
+
+<script>
+function myFunction(){
+	var s = document.getElementById("name").value;
+	window.location = 'play.html?username='+s;
+}
+</script>
+
+<body>
+</body>
+</html>
