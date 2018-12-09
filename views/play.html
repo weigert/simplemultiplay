@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<!-- All Pieces to Be Rendered on Top!-->
+	<head>
+		<meta charset=utf-8>
+		<title>Roguelike</title>
+
+		<div id="info">
+		Roguelike<br>
+		</div>
+
+		<div id="char">
+		</div>
+
+		<div id="console">
+			<p id="a"></p>
+			<p id="b"></p>
+			<p id="c"></p>
+			<p id="d"></p>
+			<p id="e">> _</p>
+		</div>
+
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<!-- Connection to Server !-->
+		<script src = "/socket.io/socket.io.js"></script>
+		<!-- Client and Rendering !-->
+		<script src="js/pixi.min.js"></script>
+		<script src="js/client.js"></script>
+		<script src="js/render.js"></script>
+	</body>
+</html>
